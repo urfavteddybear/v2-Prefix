@@ -19,9 +19,9 @@ module.exports = {
   nodes: [
     {
       identifier: "Main", //- Used for indentifier in stats commands.
-      host: "176.31.203.21",
-      port: 1859,
-      password: "lavaserver",
+      host: "144.172.80.242",
+      port: 4018,
+      password: "thermalhosting.com",
       retryAmount: 15, //- The amount of times to retry connecting to the node if connection got dropped.
       retryDelay: 6000, //- Delay between reconnect attempts if connection is lost.
       secure: false, //- Can be either true or false. Only use true if ssl is enabled!
