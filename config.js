@@ -19,7 +19,7 @@ module.exports = {
   nodes: [
     {
       identifier: "Main", //- Used for indentifier in stats commands.
-      host: "n5.danbot.host",
+      host: "176.31.203.24",
       port: 1907,
       password: "youshallnotpass",
       retryAmount: 15, //- The amount of times to retry connecting to the node if connection got dropped.
