@@ -19,22 +19,14 @@ module.exports = {
   nodes: [
     {
       identifier: "Main", //- Used for indentifier in stats commands.
-      host: "144.172.80.242",
-      port: 4018,
-      password: "thermalhosting.com",
+      host: "140.238.226.50",
+      port: 1047,
+      password: "youshallnotpass",
       retryAmount: 15, //- The amount of times to retry connecting to the node if connection got dropped.
       retryDelay: 6000, //- Delay between reconnect attempts if connection is lost.
       secure: false, //- Can be either true or false. Only use true if ssl is enabled!
     },
-    {
-      identifier: "Main 2", //- Used for indentifier in stats commands.
-      host: "54.37.6.86",
-      port: 80,
-      password: "Blacky#9125",
-      retryAmount: 15, //- The amount of times to retry connecting to the node if connection got dropped.
-      retryDelay: 6000, //- Delay between reconnect attempts if connection is lost.
-      secure: false, //- Can be either true or false. Only use true if ssl is enabled!
-    },
+    
   ],
   embedColor: "#b72d30", //Color of the embeds, hex supported
   iconURL: "", //This icon will be in every embed's author field
